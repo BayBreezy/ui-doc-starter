@@ -17,7 +17,7 @@ hero:
       trailingIcon: "heroicons:play-circle"
     - label: "Github Repo"
       external: true
-      to: "#"
+      to: "https://github.com/BayBreezy/ui-doc-starter"
       size: "lg"
       variant: "outline"
       leadingIcon: "mdi:github"
