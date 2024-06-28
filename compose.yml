@@ -1,0 +1,10 @@
+services:
+  nuxt-app:
+    image: nuxt-app
+    build: .
+    container_name: nuxt-app
+    ports:
+      - "3030:3000"
+    command: node .output/server/index.mjs
+    environment:
+      - SITE_URL=http://localhost:3030
