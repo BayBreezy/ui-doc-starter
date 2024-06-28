@@ -23,6 +23,12 @@ Clone the repo and install the dependencies:
 npx --yes giget@latest https://github.com/BayBreezy/ui-doc-starter --install
 ```
 
+## Deployment
+
+An instance is deployed on Netlify at https://ui-doc-starter.behonbaker.com
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/64f5f619-4c60-4d32-bd92-ebed3f118dad/deploy-status)](https://app.netlify.com/sites/sprightly-rolypoly-6aa2cc/deploys)
+
 ## Development Server
 
 Start the development server
