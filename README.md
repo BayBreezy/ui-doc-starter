@@ -20,7 +20,7 @@ There are several modules at play in this project:
 Clone the repo and install the dependencies:
 
 ```bash
-npx --yes giget@latest https://github.com/BayBreezy/ui-doc-starter --install
+npx --yes giget@latest gh:BayBreezy/ui-doc-starter docs --install
 ```
 
 ## Deployment
