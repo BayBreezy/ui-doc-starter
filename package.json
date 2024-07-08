@@ -33,7 +33,7 @@
     "@nuxtjs/seo": "^2.0.0-rc.11",
     "@tanstack/vue-table": "^8.17.3",
     "@vee-validate/nuxt": "^4.13.1",
-    "@vite-pwa/nuxt": "^0.8.1",
+    "@vite-pwa/nuxt": "^0.9.1",
     "@vueform/multiselect": "^2.6.8",
     "datatables.net-buttons-dt": "^3.0.2",
     "datatables.net-responsive-dt": "^3.0.2",
