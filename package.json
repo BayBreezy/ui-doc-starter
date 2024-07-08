@@ -42,7 +42,7 @@
     "datatables.net-vue3": "^3.0.1",
     "dotenv": "^16.4.5",
     "jszip": "^3.10.1",
-    "nuxt": "^3.12.2",
+    "nuxt": "^3.12.3",
     "radix-vue": "^1.8.5",
     "tailwind-variants": "^0.2.1",
     "v-wave": "^2.0.0",
