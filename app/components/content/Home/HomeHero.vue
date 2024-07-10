@@ -14,13 +14,6 @@
       <p class="mx-auto mt-5 max-w-[700px] text-pretty text-center text-lg text-muted-foreground">
         {{ heroData?.description }}
       </p>
-      <img
-        v-if="heroData?.image"
-        loading="eager"
-        :src="heroData?.image.src"
-        :alt="heroData?.image.alt"
-        class="mx-auto mt-12 size-full h-full max-w-[900px] rounded-lg object-cover shadow lg:max-h-[500px]"
-      />
       <div
         v-if="heroData?.cta && heroData?.cta.length"
         class="mt-8 flex items-center justify-center gap-3"
@@ -33,6 +26,13 @@
           </UiButton>
         </template>
       </div>
+      <img
+        v-if="heroData?.image"
+        loading="eager"
+        :src="heroData?.image.src"
+        :alt="heroData?.image.alt"
+        class="mx-auto mt-12 size-full h-full max-w-[900px] rounded-lg object-cover shadow lg:max-h-[500px]"
+      />
     </UiContainer>
   </div>
 </template>

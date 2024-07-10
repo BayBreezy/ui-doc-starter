@@ -7,6 +7,7 @@ const locale = "en";
 export default defineNuxtConfig({
   devtools: { enabled: true },
   future: { compatibilityVersion: 4 },
+
   modules: [
     "@nuxt/content",
     "@nuxtjs/tailwindcss",
@@ -23,9 +24,11 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@vite-pwa/nuxt",
   ],
+
   tailwindcss: { exposeConfig: true },
   colorMode: { classSuffix: "" },
   eslint: { config: { stylistic: false } },
+
   imports: {
     imports: [
       { from: "tailwind-variants", name: "tv" },
@@ -37,6 +40,7 @@ export default defineNuxtConfig({
       },
     ],
   },
+
   pwa: {
     includeAssets: ["favicon.ico", "robots.txt"],
     manifest: {
@@ -73,6 +77,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   app: {
     head: {
       titleTemplate: `%s - ${name}`,
@@ -90,6 +95,7 @@ export default defineNuxtConfig({
   },
 
   build: { transpile: ["vue-sonner"] },
+
   content: {
     documentDriven: true,
     markdown: { toc: { depth: 3 } },
@@ -102,12 +108,14 @@ export default defineNuxtConfig({
       },
     },
   },
+
   site: {
     url,
     name,
     description,
     defaultLocale: locale, // not needed if you have @nuxtjs/i18n installed
   },
+
   schemaOrg: {
     identity: {
       name,
@@ -117,7 +125,10 @@ export default defineNuxtConfig({
       logo: `${url}/icon.png`,
     },
   },
+
   sitemap: {
     autoLastmod: true,
   },
+
+  compatibilityDate: "2024-07-09",
 });
