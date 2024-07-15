@@ -94,7 +94,7 @@ export default defineNuxtConfig({
     },
   },
 
-  build: { transpile: ["vue-sonner"] },
+  build: { transpile: ["vue-sonner", "shiki"] },
 
   content: {
     documentDriven: true,
