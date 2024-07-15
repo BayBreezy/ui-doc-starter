@@ -7,14 +7,10 @@
 
   const props = withDefaults(
     defineProps<{ title?: string; description?: string; headline?: string }>(),
-    {
-      title: "title",
-      description: "description",
-      headline: "headline",
-    }
+    {}
   );
 
-  const title = computed(() => props.title.slice(0, 60));
+  const title = computed(() => props.title?.slice(0, 60));
 </script>
 
 <template>
@@ -57,7 +53,10 @@
       <h1 class="m-0 mb-4 flex w-[700px] items-center text-[75px] font-semibold text-white">
         <span>{{ title }}</span>
       </h1>
-      <p class="line-clamp-3 max-w-[800px] text-[32px] leading-relaxed text-[#E4E4E7]">
+      <p
+        v-if="description"
+        class="line-clamp-3 max-w-[800px] text-[32px] leading-relaxed text-[#E4E4E7]"
+      >
         {{ description.slice(0, 200) }}
       </p>
     </div>
