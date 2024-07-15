@@ -43,7 +43,7 @@
     "dotenv": "^16.4.5",
     "jszip": "^3.10.1",
     "nuxt": "^3.12.3",
-    "radix-vue": "^1.9.0",
+    "radix-vue": "^1.9.1",
     "tailwind-variants": "^0.2.1",
     "v-wave": "^2.0.0",
     "vaul-vue": "^0.2.0",
