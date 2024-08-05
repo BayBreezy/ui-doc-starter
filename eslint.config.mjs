@@ -8,5 +8,7 @@ export default withNuxt({
     "vue/require-default-prop": "off",
     "@typescript-eslint/ban-types": "off",
     "vue/html-self-closing": "off",
+    "@typescript-eslint/no-unsafe-function-type": "off",
+    "@typescript-eslint/no-empty-object-type": "off",
   },
 });
