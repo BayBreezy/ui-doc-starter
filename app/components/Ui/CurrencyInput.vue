@@ -1,4 +1,5 @@
 <template>
+  <!-- eslint-disable-next-line vue/html-self-closing -->
   <input ref="inputRef" type="text" :class="styles({ class: props.class })" v-bind="props" />
 </template>
 

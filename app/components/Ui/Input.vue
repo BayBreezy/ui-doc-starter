@@ -1,4 +1,5 @@
 <template>
+  <!-- eslint-disable-next-line vue/html-self-closing -->
   <input v-bind="props" v-model="localModel" :class="styles({ class: props.class })" />
 </template>
 
