@@ -32,7 +32,7 @@
     "@nuxt/icon": "^1.4.5",
     "@nuxt/image": "^1.7.0",
     "@nuxtjs/seo": "^2.0.0-rc.18",
-    "@tanstack/vue-table": "^8.20.4",
+    "@tanstack/vue-table": "^8.20.5",
     "@vee-validate/nuxt": "^4.13.2",
     "@vite-pwa/nuxt": "^0.10.0",
     "@vueform/multiselect": "^2.6.9",
