@@ -56,7 +56,7 @@
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@iconify-json/heroicons": "^1.1.24",
-    "@iconify-json/lucide": "^1.1.207",
+    "@iconify-json/lucide": "^1.1.208",
     "@iconify-json/mdi": "^1.1.68",
     "@iconify-json/radix-icons": "^1.1.15",
     "@nuxtjs/color-mode": "^3.4.4",
