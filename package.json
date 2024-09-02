@@ -36,7 +36,7 @@
     "@vee-validate/nuxt": "^4.13.2",
     "@vite-pwa/nuxt": "^0.10.0",
     "@vueform/multiselect": "^2.6.9",
-    "datatables.net-buttons-dt": "^3.1.1",
+    "datatables.net-buttons-dt": "^3.1.2",
     "datatables.net-responsive-dt": "^3.0.2",
     "datatables.net-searchbuilder-dt": "^1.8.0",
     "datatables.net-select-dt": "^2.0.5",
