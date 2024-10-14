@@ -5,6 +5,6 @@ services:
     container_name: nuxt-app
     ports:
       - "3030:3000"
-    command: node .output/server/index.mjs
     environment:
-      - SITE_URL=http://localhost:3030
+      - SITE_URL=${SITE_URL:-http://localhost:3030}
+      - NODE_ENV=production

@@ -8,6 +8,6 @@ RUN npm install
 
 COPY . .
 
-ENV SITE_URL=http://localhost:3030
-
 RUN npm run build
+
+CMD [ "node", ".output/server/index.mjs" ]
