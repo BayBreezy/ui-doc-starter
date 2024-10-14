@@ -24,7 +24,9 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@vite-pwa/nuxt",
   ],
-
+  icon: {
+    clientBundle: { scan: true, sizeLimitKb: 0 },
+  },
   tailwindcss: { exposeConfig: true },
   colorMode: { classSuffix: "" },
   eslint: { config: { stylistic: false } },
