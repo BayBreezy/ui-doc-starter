@@ -17,7 +17,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Inter var", "Inter", ...fontFamily.sans],
+        sans: ["Inter", ...fontFamily.sans],
         mono: ["JetBrains Mono", "ui-monospace", ...fontFamily.mono],
       },
       borderRadius: {
