@@ -1,4 +1,5 @@
 export default {
+  nuxtVersion: 4,
   theme: "blue",
   tailwindCSSLocation: "app/assets/css/tailwind.css",
   tailwindConfigLocation: "tailwind.config.js",
