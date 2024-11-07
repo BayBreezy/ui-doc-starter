@@ -133,5 +133,8 @@ export default defineNuxtConfig({
     autoLastmod: true,
   },
 
-  compatibilityDate: "2024-07-09",
+  compatibilityDate: "2024-11-07",
+  nitro: {
+    compatibilityDate: "2024-11-07",
+  },
 });
