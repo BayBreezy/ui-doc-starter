@@ -60,7 +60,7 @@
     link: [{ rel: "icon", type: "image/png", href: "/icon.png" }],
   });
 
-  const dir = computed(() => page.value?._dir?.replace(/-/g, " "));
+  const dir = computed(() => page.value?._dir?.replace(/-/g, " ") || "Docs");
   defineOgImageComponent("Docs", {
     headline: dir,
     title: page.value?.title,
