@@ -16,7 +16,7 @@
   import type { HTMLAttributes, Ref } from "vue";
 
   export const sideBarProviderStyles = tv({
-    base: "group/sidebar-wrapper flex min-h-svh w-full text-sidebar-foreground has-[[data-variant=inset]]:bg-sidebar",
+    base: "group/sidebar-wrapper text-sidebar-foreground has-[[data-variant=inset]]:bg-sidebar flex min-h-svh w-full",
   });
 </script>
 

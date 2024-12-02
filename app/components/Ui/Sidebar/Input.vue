@@ -8,7 +8,7 @@
   import type { HTMLAttributes } from "vue";
 
   export const sideBarInputStyles = tv({
-    base: "h-8 w-full border-sidebar-input bg-sidebar shadow-none focus-visible:ring-2 focus-visible:ring-sidebar-ring",
+    base: "border-sidebar-input bg-sidebar focus-visible:ring-sidebar-ring h-8 w-full shadow-none focus-visible:ring-2",
   });
 </script>
 <script setup lang="ts">
