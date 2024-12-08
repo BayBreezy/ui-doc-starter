@@ -45,7 +45,7 @@
     "datatables.net-searchbuilder-dt": "^1.8.1",
     "datatables.net-select-dt": "^2.1.0",
     "datatables.net-vue3": "^3.0.2",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "jszip": "^3.10.1",
     "nuxt": "^3.14.1592",
     "radix-vue": "^1.9.10",
