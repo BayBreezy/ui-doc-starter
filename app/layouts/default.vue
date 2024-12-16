@@ -62,7 +62,7 @@
 
   const dir = computed(() => page.value?._dir?.replace(/-/g, " ") || "Docs");
   defineOgImageComponent("Docs", {
-    headline: dir,
+    headline: dir.value,
     title: page.value?.title,
     description: page.value?.description,
   });
